@@ -1,0 +1,82 @@
+html {
+    font-size: 10px;
+}
+html::after {
+    content: "";
+    background: url(wallpaper.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+header {
+    width: 80%;
+    height: 420px;
+    margin-right: 10%;
+    margin-left:10%;
+    background-image: url(orlando.jpeg);
+    background-size:auto;
+    overflow: hidden;
+    border: 4px solid black;
+    background-position: center;
+}
+h1 {
+    text-align: center;
+}
+.header {
+    text-decoration: none;
+    color: antiquewhite;
+    text-shadow: 2px 2px black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+} 
+.header:hover {
+    color: aquamarine;
+}
+.header:active {
+    color:black;
+}
+p {
+    font-size: 2em;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bold;
+}
+h2 {
+    font-size: 3em;
+    color: antiquewhite;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul {
+  display:flex;
+  flex-flow: row wrap;
+
+}
+li {
+    list-style: none;
+    padding:10px;
+    margin:10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font: normal 2em bolder;
+    flex: 1 auto;
+    text-align: center;
+}
+.attract {
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px antiquewhite;
+    font-weight: bolder;
+}
+.attract:hover {
+    color: aquamarine;
+    text-shadow: 1px 1px black;
+}
+span {
+    font-weight: bolder;
+}
