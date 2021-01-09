@@ -1,7 +1,7 @@
 html {
     font-size: 10px;
 }
-html::after {
+body::after {
     content: "";
     background: url(wallpaper.jpg);
     opacity: 0.5;
@@ -13,10 +13,10 @@ html::after {
     z-index: -1;   
   }
 header {
-    width: 80%;
+    width: 98%;
     height: 420px;
-    margin-right: 10%;
-    margin-left:10%;
+    margin-right: 1%;
+    margin-left:1%;
     background-image: url(orlando.jpeg);
     background-size:auto;
     overflow: hidden;
